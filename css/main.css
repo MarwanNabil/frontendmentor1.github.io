@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+
+.card .cover{
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.card .content {
+    position: absolute;
+    border-radius: inherit;
+    width: 45%;
+    height: 100%;
+    right: 0;
+    padding: 10px;
+}
+
+.card .content .type {
+    font-family: "Montserrat";
+    position: absolute;
+    top : 5%;
+    left: 5%;
+    color: #8b8b8b;
+    letter-spacing: 5px;
+}
+
+.card .content .title {
+    font-family: "Fraunces";
+    position: absolute;
+    top : 10%;
+    left: 5%;
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.card .content .description {
+    font-family: "Fraunces";
+    color: #8b8b8b;
+    position: absolute;
+    top : 30%;
+    left: 5%;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.card .content .cost {
+    font-family: "Fraunces";
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    color: #008d0e;
+    left: 20%;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.card .content .sale {
+    font-family: "Fraunces";
+    color: red;
+    position: absolute;
+    top: 75%;
+    left: 69%;
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card .content button {
+    font-family: "Fraunces";
+    font-weight: 800;
+    position: absolute;
+    background-color: rgb(8, 80, 8);
+    color: white;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    width: 80%;
+    height: 10%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: inherit;
+    border-color: transparent;
+}
+
+.card .content button img{
+    width: 20px;
+}
+
+
+
+.attribution {
+    text-align: center;
+    bottom: 0;
+}
